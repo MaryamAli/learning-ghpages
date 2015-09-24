@@ -21,6 +21,7 @@ padding-bottom: 3px;
   border: 1px solid  gray;
   margin-bottom: 3px;
   border-radius:4px;
+  border
 }
 
 .image-number{
@@ -32,10 +33,12 @@ padding-bottom: 3px;
 }
 
 .image-caption{
-float: right;
+float:right;
 font-size: 12px;
 color: black;
 font-weight: bold;
+padding-left: 40px;
+
 }
 
 .authors{
@@ -51,10 +54,12 @@ float:right;
 
 
 .bracketed:before  {
-  content:" order-style: solid;
-border-width: 10px 10px 0 10px;
-border-color: #3b3c3d black black black;
-position: absolute";
+  content:"";
 width: 255;
 height: 250;
+order-style: solid;
+border-width: 10px 10px 0 10px;
+border-color: #3b3c3d black black black;
+position: absolute;
+}
 
